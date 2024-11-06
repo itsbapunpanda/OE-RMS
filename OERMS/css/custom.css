@@ -1,0 +1,72 @@
+/* Change Brand Name Font */  
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;  
+  font-size: 2em;
+  font-weight: bold;
+}  
+/* Change Navigation color */
+.navbar #myMenu .custom-nav .nav-item a{
+  color: #fff; 
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+  color: #5bb3d0; 
+}  
+/* Make Header Image Responsive */   
+/* Make Header Image Responsive */   
+.back-image{
+  background-size: cover;
+  background-position: center center;   
+  background-repeat: no-repeat;     
+  min-height: 90vh;
+  border-radius: 0px;
+  margin-top: 74px; 
+}
+/* Header image Sub-Title */   
+.font-italic{
+  font-size: 24px;   
+}
+
+/* Change Footer Icon Link Color */
+.fi-color {
+  color: #6cd7f4 ;  
+}  
+
+.fi-color:hover{
+   color:#ace0ee ;  
+} 
+
+a{
+  color: black;  
+}  
+
+a:hover{
+  color:#dc3545;  
+}
+
+.active{
+  color: #fff;
+  background-color: #f26571;
+}   
+/* Plus Button for adding New Users Bottom Right */
+.box {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  margin-bottom: 30px;
+}
+
+
+/* Margin for Welcome to OSMS */   
+.mainHeading{
+   margin-top: 50px;   
+}
+
+
+/* media queries */
+@media only screen and (max-width: 600px){
+  .myclass{
+      margin-top: 350px;
+      text-align: center;   
+  }
+
+}  
